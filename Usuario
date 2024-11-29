@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>usuario</title>
+    <link rel="stylesheet" href="../css/usuario.css">
+    <script href="../js/usuario.js"></script>
+</head>
+
+<body>
+    <nav class="nav-perfil">
+        <ul>
+            <li>
+                <img src="../img/icono-usuario.jpg" alt="logo usuario">
+                <a href="#" onclick="actualizar_pagina">Actualizar pagina</a>
+                <a href="#" onclick="cerrar-sesion">Cerrar Sesion</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="texto">
+        <img src="../img/icono-usuario.jpg" alt="">
+        <h2>Usuario</h2>
+        <p><strong>Nombre: </strong>Juan Perez</p>
+        <p><strong>Email: </strong>JuanPerez@gmail.com</p>
+        <p><strong>Direccion: </strong>cra 17#71-16</p>
+        <p><strong>Telefono: </strong>(57)3225316443</p>
+    </div>
+</body>
+
+</html>
